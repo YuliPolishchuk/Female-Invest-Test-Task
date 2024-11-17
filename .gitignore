@@ -1,0 +1,84 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+ios/.xcode.env.local
+
+# Android/IntelliJ
+#
+build/
+release/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+!release.keystore
+
+# Bundle artifact
+*.jsbundle
+
+# Ruby / CocoaPods
+/ios/Pods/
+/vendor/bundle/
+
+#tests
+/coverage
+
+#Gradle files and caches
+android/gradle/.tmp
+android/gradle/caches
+android/gradle/daemon
+android/gradle/jdks
+android/gradle/kotlin-profile
+android/gradle/native
+android/gradle/wrapper/dists
+# fastlane
+*.mobileprovision
+*.cer
+*.dSYM.zip
+
+
+# Android build files
+*.hprof
+
+notes.txt
+
+*.txt
+*.p12
+
+# Github action
+
+# .github
+.env
+.env.*
