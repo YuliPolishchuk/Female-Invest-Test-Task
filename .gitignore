@@ -71,14 +71,11 @@ android/gradle/wrapper/dists
 
 # Android build files
 *.hprof
+.cxx
 
-notes.txt
 
 *.txt
 *.p12
 
-# Github action
 
-# .github
-.env
-.env.*
+
